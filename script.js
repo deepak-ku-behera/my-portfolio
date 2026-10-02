@@ -14,6 +14,41 @@ nav.querySelectorAll('a').forEach(link => {
     });
 });
 
+
+// Technical Skills Filter
+
+const filterButtons = document.querySelectorAll(".filter-btn");
+const skillCards = document.querySelectorAll(".skill-card");
+
+filterButtons.forEach(button => {
+    button.addEventListener("click", () => {
+
+        // Remove active state from all buttons
+        filterButtons.forEach(btn => {
+            btn.classList.remove("active");
+        });
+
+        // Activate clicked button
+        button.classList.add("active");
+
+        const selectedCategory = button.dataset.filter;
+
+        // Show or hide skill cards
+        skillCards.forEach(card => {
+            const category = card.dataset.category;
+
+            if (
+                selectedCategory === "all" ||
+                category === selectedCategory
+            ) {
+                card.classList.remove("hidden");
+            } else {
+                card.classList.add("hidden");
+            }
+        });
+    });
+});
+
 // Contact Form Submission
 document.getElementById('contactForm').addEventListener('submit', function (e) {
     e.preventDefault();

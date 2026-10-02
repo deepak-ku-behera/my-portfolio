@@ -59,7 +59,7 @@
                        target="_blank" rel="noopener noreferrer"
                        aria-label="GitHub">GitHub ↗</a>
 
-                    <a href="https://www.linkedin.com/"
+                    <a href="https://www.linkedin.com/in/deepak-kumar-behera-812875384"
                        target="_blank" rel="noopener noreferrer"
                        aria-label="LinkedIn">LinkedIn ↗</a>
                 </div>
@@ -95,59 +95,107 @@
             </p>
         </section>
 
-        <!-- Skills Section -->
-        <section class="section" id="skills">
-            <p class="eyebrow">WHAT I WORK WITH</p>
+<!-- Technical Skills Section -->
+<section class="section skills-section" id="skills">
+    <div class="skills-heading">
+        <div>
+            <h2>Technical <span>Arsenal.</span></h2>
+            <p>Languages, libraries, frameworks, and developer tools I use to build applications.</p>
+        </div>
 
-            <h2>My <span>Skills</span></h2>
+        <div class="skill-filters">
+            <button class="filter-btn active" data-filter="all">All Skills</button>
+            <button class="filter-btn" data-filter="languages">Languages</button>
+            <button class="filter-btn" data-filter="frontend">Frontend</button>
+            <button class="filter-btn" data-filter="backend">Core</button>
+            <button class="filter-btn" data-filter="database">Database</button>
+            <button class="filter-btn" data-filter="tools">Tools</button>
+        </div>
+    </div>
 
-            <div class="skills-grid">
-                <div class="skill">
-                    <span class="skill-icon">☕</span>
-                    <b>Java</b>
-                </div>
+    <div class="skills-grid">
 
-                <div class="skill">
-                    <span class="skill-icon">C</span>
-                    <b>C</b>
-                </div>
-
-                <div class="skill">
-                    <span class="skill-icon">🐍</span>
-                    <b>Python</b>
-                </div>
-
-                <div class="skill">
-                    <span class="skill-icon">▤</span>
-                    <b>MySQL</b>
-                </div>
-
-                <div class="skill">
-                    <span class="skill-icon">&lt;/&gt;</span>
-                    <b>HTML</b>
-                </div>
-
-                <div class="skill">
-                    <span class="skill-icon">✦</span>
-                    <b>CSS</b>
-                </div>
-
-                <div class="skill">
-                    <span class="skill-icon">JS</span>
-                    <b>JavaScript</b>
-                </div>
-
-                <div class="skill">
-                    <span class="skill-icon">⚛</span>
-                    <b>React</b>
-                </div>
-
-                <div class="skill">
-                    <span class="skill-icon">◉</span>
-                    <b>MongoDB</b>
+        <!-- Languages -->
+        <div class="skill-card" data-category="languages">
+            <div class="skill-card-heading">
+                <div class="skill-card-icon">&lt;/&gt;</div>
+                <div>
+                    <h3>Languages</h3>
+                    <p>3 Technologies</p>
                 </div>
             </div>
-        </section>
+            <div class="skill-list">
+                <span class="skill-item"><b class="tech-icon java">☕</b> Java</span>
+                <span class="skill-item"><b class="tech-icon c-icon">C</b> C</span>
+                <span class="skill-item"><b class="tech-icon python">🐍</b> Python</span>
+            </div>
+        </div>
+
+        <!-- Frontend -->
+        <div class="skill-card" data-category="frontend">
+            <div class="skill-card-heading">
+                <div class="skill-card-icon">▱</div>
+                <div>
+                    <h3>Frontend</h3>
+                    <p>6 Technologies</p>
+                </div>
+            </div>
+            <div class="skill-list">
+                <span class="skill-item"><b class="tech-icon html-icon">5</b> HTML</span>
+                <span class="skill-item"><b class="tech-icon css-icon">3</b> CSS</span>
+                <span class="skill-item"><b class="tech-icon js-icon">JS</b> JavaScript</span>
+                <span class="skill-item"><b class="tech-icon react-icon">⚛</b> React</span>
+                <span class="skill-item"><b class="tech-icon tailwind-icon">≈</b> Tailwind CSS</span>
+                <span class="skill-item"><b class="tech-icon bootstrap-icon">B</b> Bootstrap</span>
+            </div>
+        </div>
+        
+        <!-- Database -->
+        <div class="skill-card" data-category="database">
+            <div class="skill-card-heading">
+                <div class="skill-card-icon">▤</div>
+                <div>
+                    <h3>Database</h3>
+                    <p>2 Technologies</p>
+                </div>
+            </div>
+            <div class="skill-list">
+                <span class="skill-item"><b class="tech-icon mysql-icon">▤</b> MySQL</span>
+                <span class="skill-item"><b class="tech-icon mongo-icon">◆</b> MongoDB</span>
+            </div>
+        </div>
+
+        <!-- Core -->
+        <div class="skill-card" data-category="backend">
+            <div class="skill-card-heading">
+                <div class="skill-card-icon">⌘</div>
+                <div>
+                    <h3>Core</h3>
+                    <p>1 Technology</p>
+                </div>
+            </div>
+            <div class="skill-list">
+                <span class="skill-item"><b class="tech-icon core-icon">◈</b> Data Structures</span>
+            </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-card" data-category="tools">
+            <div class="skill-card-heading">
+                <div class="skill-card-icon">🔧</div>
+                <div>
+                    <h3>Tools</h3>
+                    <p>2 Technologies</p>
+                </div>
+            </div>
+            <div class="skill-list">
+                <span class="skill-item"><b class="tech-icon git-icon">◆</b> Git</span>
+                <span class="skill-item"><b class="tech-icon github-icon">●</b> GitHub</span>
+            </div>
+        </div>
+
+    </div>
+</section>
 
         <!-- Projects Section -->
         <section class="section projects" id="projects">
@@ -231,6 +279,83 @@
             </div>
             
         </section>
+        
+<!-- Professional Experience Section -->
+<section class="section experience" id="experience">
+    <p class="eyebrow">MY CAREER JOURNEY</p>
+    <h2>Professional <span>Experience</span></h2>
+
+    <div class="experience-container">
+
+
+        <!-- Internship 3 -->
+        <div class="experience-card">
+            <div class="experience-icon">💻</div>
+            <div class="experience-content">
+                <span class="experience-type">Internship</span>
+                <h3>Web Development Intern</h3>
+                <h4>Web Bocket</h4>
+                <p>
+                    Developed practical web development skills
+                    by working with frontend technologies.
+                    Explored website development, page layouts,
+                    and interactive user interfaces.
+                </p>
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>react</span>
+                    <span>Web Development</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Internship 2 -->
+        <div class="experience-card">
+            <div class="experience-icon">🎨</div>
+            <div class="experience-content">
+                <span class="experience-type">Internship</span>
+                <h3>Web Design Intern</h3>
+                <h4>CTTC (Central Tool Room & Training Centre)</h4>
+                <p>
+                    Learned the fundamentals of web design and
+                    frontend development. Worked with HTML and CSS
+                    to create structured, attractive, and
+                    responsive web pages.
+                </p>
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                    <span>Web Design</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Internship 1 -->
+        <div class="experience-card">
+            <div class="experience-icon">☕</div>
+            <div class="experience-content">
+                <span class="experience-type">Internship</span>
+                <h3>Core Java Intern</h3>
+                <h4>CTTC (Central Tool Room & Training Centre)</h4>
+                <p>
+                    Gained practical knowledge of Core Java,
+                    object-oriented programming, and Java fundamentals.
+                    Improved programming and problem-solving skills
+                    through hands-on learning.
+                </p>
+                <div class="tags">
+                    <span>Java</span>
+                    <span>OOP</span>
+                    <span>Programming</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
 
         <!-- Contact Section -->
         <section class="contact section" id="contact">
